@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+.menuIzquierdo {
+    background-color: #008040;
+    width: 180px;
+    padding: 20px; 
+    padding-bottom: 90px;
+}
+
+.menuIzquierdo p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1px;
+    font-size: large;
+    padding: 10px;
+    padding-right: 10px;
+    line-height: 1.7;
+}
+
+.menuIzquierdo a {
+    color: white;
+}
+
+.menuIzquierdo p:hover {
+    background-color: #006d37;
+}
+
+.menuIzquierdo a:hover {
+    cursor: pointer;
+}
+
+.menuIzquierdo a:link {
+    text-decoration-line: none;
+}
+
+

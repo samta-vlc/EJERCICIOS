@@ -1,0 +1,23 @@
+body {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    background-color: lightblue;
+    line-height: 1.15;
+    /* El tamaño de la fuente de la página sea de 14px.
+    El tipo de fuente sea Gill sans.
+    El color de la fuente sea marrón.
+    El fondo de la página sea azul claro.
+    El interlineado sea de 1.15.*/
+}
+
+@media all and (min-width: 600px) {
+    /* Con mediaqueries, haremos que cuando estemos en una pantalla mayor a 600px, “Los valores” tenga el fondo verde
+    y el listado lo tenga naranja. */
+    h2 {
+        background-color: yellowgreen;
+    }
+    ul {
+        background-color: sandybrown;
+    }
+}

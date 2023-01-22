@@ -1,0 +1,21 @@
+body, ul {
+    margin: 0;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.menu li:hover {
+    color: greenyellow;
+
+}

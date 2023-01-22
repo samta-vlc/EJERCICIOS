@@ -1,0 +1,35 @@
+<!--Vamos a hacer una página con tres párrafos distintos y aplicaremos los estilos de las tres formas diferentes que hemos visto. 
+  Además, todo el texto tiene que estar escrito con la letra estilo Segoe UI.
+- Título: Integración de estilos.
+- Párrafo 1: En este ejercicio estamos viendo cómo podemos integrar los estilos de distintas formas. 
+    Este párrafo tiene los estilos definidos en un archivo externo.
+- Párrafo 2: Mientras que este los tiene definidos como atributos de la etiqueta HTML.
+- Párrafo 3: Y este último, dentro de la etiqueta head del HTML.
+Los colores se pueden especificar de diferentes formas en la misma propiedad:
+• Valor hexadecimal: #ffaaff
+• Valor RGB: rgb (255, 145, 255)
+• Valor RGBA: rgba (255, 145, 255, 0.8). El último valor marca la opacidad del color.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicio 3.1: Integración de estilos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style3-1.css">
+    <style>
+      #tercero {
+        background-color: rgb(93, 247, 196);
+        margin-top: 40px;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Integración de estilos</h1>
+    <p class="primero">En este ejercicio estamos viendo cómo podemos integrar los estilos de distintas formas. 
+      Este párrafo tiene los estilos definidos en un archivo externo.</p>
+      <p style="font-size: 40px; background-color: blue; color: white;">Mientras que éste los tiene definidos como atributos 
+        de la etiqueta HTML.</p>
+      <p id="tercero">Y este último, dentro de la etiqueta head del HTML.</p>
+  </body>
+</html>
