@@ -1,0 +1,22 @@
+body {
+    color: black; font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+.enunciado {
+    font-size: large; color: darkblue; background-color: rgb(185, 245, 126);
+}
+
+.formulas {
+    font-size: larger; color: darkblue;
+    font-family: 'Times New Roman', Times, serif; background-color: rgb(185, 245, 126);
+}
+
+.tarea {
+    color: grey; font-size: large; font-style: italic;
+}
+
+img {
+    max-width: 100%; height: auto;
+}

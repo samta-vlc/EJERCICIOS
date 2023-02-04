@@ -1,0 +1,17 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+}
+.enunciado {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: gold;
+    color: black;
+    font-size: larger;
+}

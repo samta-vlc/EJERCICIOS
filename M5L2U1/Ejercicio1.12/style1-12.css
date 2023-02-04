@@ -1,0 +1,17 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(40, 0, 114);
+    color: white;
+}
+.enunciado {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(172, 255, 241);
+    color: black;
+    font-size: larger;
+}

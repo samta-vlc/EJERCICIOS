@@ -1,0 +1,39 @@
+<!--En este ejercicio vamos a usar principalmente la consola del navegador.Para imprimir resultados en la consola hay que utilizar el comando console.log(lo que quieras).
+    El ejercicio va a consistir en transformar una operación numérica en una operación empleando variables y constantes. Tenemos que calcular el volumen y el área de este ortoedro y mostrarlo por la consola.
+    ¿Y si ahora queremos generalizar la operación de forma que solo tengamos que cambiar los valores de los lados?-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 1.1: Utilización de variables</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1-1.css">
+    </head>
+    <body>
+        <h1>Calcular el volumen y el área de un prisma rectangular (ortoedro)</h1>
+        <p class="enunciado">Si llamamos <strong>a</strong> a la longitud de un ortoedro, <strong>b</strong> a su ancho o profundidad
+             y <strong>c</strong> a su altura, podemos definir las siguientes fórmulas:
+        </p>
+        <div><img src="Ortoedro.png" alt=""></div>
+        <div class="formulas">
+            <p><strong>Volumen</strong> = a · b · c</p>
+            <p><strong>Área</strong> = 2 · (a · b + a · c + b · c)</p>
+            <p><strong>Área <sub>base</sub></strong> = a · b</p>
+            <p><strong>Área <sub>lateral</sub></strong> = 2 · c · (a + b)</p>
+            <p><strong>Área <sub>total</sub></strong> = 2 · Área <sub>base</sub> + Área <sub>lateral</sub></p>
+            <strong>Volumen*</strong> = Área <sub>base</sub> · c</p>
+        </div>
+        <div><p>Tenemos un ortoedro con las siguientes medidas:</p>
+            <ul><li>a, longitud de 23 cm;</li>
+            <li>b, ancho o profundidad 16 cm, y;</li>
+            <li>c, altura de 13 cm.</li></ul>
+            <p>Calcular el volumen y el área de este ortoedro y mostrarlo en la consola de tu navegador. 
+                También se puede calcular el área de la base y el área lateral. Comprobar, a continuación, que se puede generalizar 
+                la operación de forma que solo tengamos que cambiar los valores de área base y área lateral para hallar área total y volumen.
+            </p>
+        </div>
+        <div class="tarea"><p>En el archivo JavaScript, modifica los valores de las constantes y obtendrás distintos valores de volumen y
+             área mostrados en la consola.</p></div>
+        <script src="index1-1.js"></script>
+    </body>
+</html>

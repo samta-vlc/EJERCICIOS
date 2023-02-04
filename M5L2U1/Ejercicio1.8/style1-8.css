@@ -1,0 +1,22 @@
+body {
+    color: black;
+    background-color: rgb(237, 245, 172);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+h1 {
+    background-color: white;
+    padding: 10px;
+}
+
+.enunciado {
+    background-color: white;
+    color: rgb(109, 0, 139);
+    padding: 20px;
+}
+
+.cadena {
+    text-align: center;
+    color: rgb(56, 52, 52);
+}

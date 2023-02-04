@@ -1,0 +1,53 @@
+<!--A partir del siguiente código vamos a definir varios eventos para tener una página interactiva. Concretamente:
+- Cuando hagamos click sobre el botón de guardar aparecerá un alert.
+- Cuando hagamos foco sobre el input del nombre el fondo será de un color y cuando se lo quitemos, de otro.
+- Dependiendo de si escribimos una vocal o una consonante en el segundo input su contenido se mostrará de un color distinto.
+    *A continuación, tienes el código HTML necesario para hacer el ejercicio, añade las clases o selectores que necesites.
+***A parte de con listeners, podemos aplicar eventos indicándolos directamente sobre el código HTML. De esta forma necesita menos código ya que no hay que seleccionar el elemento desde JavaScript.-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 1.18: Eventos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Eventos</h1>
+        <p>Haz que cuando se clique sobre el botón «Guardar», salte un <i>alert</i> con un mensaje de guardado.</p>
+        <button
+        onclick="clicaBoton()">Guardar
+        </button>
+        <br>
+        <br>
+        <p>Cuando hagamos foco sobre este <i>input</i> se pondrá de color amarillo y cuando se lo quitemos cambiará de color.</p>
+        <label>Nombre:</label>
+        <input
+            type="text"
+            placeholder="Pasa el ratón por aquí."
+            onmouseover="spcNombreOnFocus(this)"
+            onmouseout="spcNombreOnBlur(this)" />
+        <br>
+        <br>
+        <p>Dependiendo de si escribimos una vocal o una consonante (sin importar que sea mayúscula o minúscula) el contenido del <i>input</i> aparecerá de distinto color.</p>
+        <label>Escribe una letra:</label>
+        <input 
+            class="random"
+            type="text"
+            form="randomLetter"
+            placeholder="Escribe aquí…"
+            onkeypress="compruebaLetra(event)" /> 
+        <br>
+        <br>
+        <p>*Dependiendo de si escribimos una letra vocal o consonante (sin importar que sea mayúscula o minúscula) u otro carácter en este <i>input</i>, abajo se irá mostrando un mensaje distinto.</p>
+        <label>Escribe una letra u otro carácter:</label>
+        <input
+            type="text"
+            placeholder="Escribe aquí…"
+            onkeypress="compruebaTexto(event)" />
+        <p 
+        id="respuesta"
+        style="color: chartreuse; background-color: black; padding: 20px; width: fit-content;"></p>
+    <script src="index1-18.js"></script>
+    </body>
+</html>

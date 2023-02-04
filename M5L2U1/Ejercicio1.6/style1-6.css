@@ -1,0 +1,21 @@
+body {
+    color: rgb(34, 3, 113);
+    background-color: rgb(171, 183, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+h1 {
+    background-color: white;
+    padding: 10px;
+}
+
+.enunciado {
+    background-color: lavenderblush;
+    color: darkblue;
+    padding: 20px;
+}
+
+.array {
+    text-align: center;
+}

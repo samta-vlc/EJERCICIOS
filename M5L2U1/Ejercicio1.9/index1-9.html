@@ -1,0 +1,29 @@
+<!--Crear una función que convierta grados Celsius (° C) a grados Fahrenheit (° F).-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 1.9: Temperatura en grados Fahrenheit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1-9.css">
+    </head>
+    <body>
+        <h1>Temperatura en grados Fahrenheit</h1>
+        <div class="enunciado">
+            <p><strong>Crear una función que convierta grados Celsius (° C) a grados Fahrenheit (° F).</strong> Para ello utiliza la siguiente fórmula:</p>
+        </div>
+        <div class="formula">
+            <p>° F = (9/5 · ° C) + 32</p>
+        </div>
+        <div class="conversor">
+            <h3>Conversor de temperatura de grados ° C a ° F</h3>
+            <p>Escriba un valor de temperatura en el campo «Celsius» para convertirla a grados Fahrenheit:</p>
+            <p>
+            <label>Celsius</label>
+            <input id="inputCelsius" type="number" placeholder="Celsius" oninput="coversorTa(this.value)" onchange="coversorTa(this.value)">
+            </p>
+            <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+        </div>
+        <script src="index1-9.js"></script>
+    </body>
+</html>

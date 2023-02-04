@@ -1,0 +1,15 @@
+body {
+    color: white;
+    background-color: rgb(80, 80, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+h1 {
+    background-color: rgb(9, 3, 36);
+}
+
+.nota {
+    font-style: italic;
+    color: blanchedalmond;
+}
